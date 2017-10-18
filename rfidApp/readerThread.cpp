@@ -61,6 +61,8 @@ void readerThread::freeTags()
 
 void readerThread::checkForTags()
 {
+	if (haveAReader)
+	{
 		st = SkyeTek_GetTags(mReaders[0], AUTO_DETECT, &lpTags, &count);
 		if (st != SKYETEK_SUCCESS)
 		{
@@ -74,4 +76,6 @@ void readerThread::checkForTags()
 
 
 		count = 0;
+
+	}
 }
