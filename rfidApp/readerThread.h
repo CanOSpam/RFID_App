@@ -93,6 +93,8 @@ signals:
 	-- PROGRAMMER: Tim Bruecker, JC Tee
 	--
 	-- INTERFACE: void gotATag(LPSKYETEK_TAG *tags, unsigned short numTags)
+	-- 	tags: pointer to an array of the tags
+	-- 	numTags: short representing the number of tags in the array.
 	--
 	-- RETURNS: void
 	--
