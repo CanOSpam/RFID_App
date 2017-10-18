@@ -111,7 +111,7 @@ public slots:
 	--
 	-- INTERFACE: void caughtATag(LPSKYETEK_TAG* tags, unsigned short numTags)
 	--	tags: pointer to the array of tags
-	--	numTags: number of tags in the array
+	--	numTags: short representing the number of tags in the array.
 	--
 	-- RETURNS: void
 	--
