@@ -53,7 +53,10 @@ void readerThread::run()
 
 void readerThread::freeTags()
 {
-	SkyeTek_FreeTags(mReaders[0], lpTags, count);
+	if (count > 0)
+	{
+		SkyeTek_FreeTags(mReaders[0], lpTags, count);
+	}
 }
 
 void readerThread::checkForTags()
