@@ -110,6 +110,8 @@ public slots:
 	-- PROGRAMMER: Tim Bruecker, JC Tee
 	--
 	-- INTERFACE: void caughtATag(LPSKYETEK_TAG* tags, unsigned short numTags)
+	--	tags: pointer to the array of tags
+	--	numTags: number of tags in the array
 	--
 	-- RETURNS: void
 	--
