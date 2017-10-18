@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------------------------------------------
--- SOURCE FILE: readerThread.cpp - DESCRIPTION HERE
+-- SOURCE FILE: readerThread.cpp
 --
 -- PROGRAM: RFID Reader App
 --
@@ -21,7 +21,7 @@
 -- NOTES:
 --	This class is a thread that handles the detecting and reading of RFID tags. It is capable of checking for tags, 
 -- and emitting a signal that contains an array of detected tags so that they can be handled in other parts 
--- of the application.
+-- of the application. *tags is the array of tags and numTags is the number of tags in the Array.
 ----------------------------------------------------------------------------------------------------------------------*/
 #pragma once
 #include <qthread.h>

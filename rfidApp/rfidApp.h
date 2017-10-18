@@ -115,7 +115,7 @@ public slots:
 	--
 	-- NOTES:
 	-- This function is connected to the gotATag signal that is emitted from the readerThread. It uses the array of tags
-	-- that are passed to it by gotATag and prints them to the text window.
+	-- that are passed to it by gotATag and prints them to the text window. numTags is the number of tags that were found.
 	----------------------------------------------------------------------------------------------------------------------*/
 	void caughtATag(LPSKYETEK_TAG* tags, unsigned short numTags);
 
